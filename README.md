@@ -3,7 +3,7 @@
 自动修复在 Amazon Send-to-Kindle 转换中失败的 EPUB 文件。  
 本仓库利用 **GitHub Copilot Task Agent**，自动分析并修补 EPUB 文件，使其兼容 Kindle 的 `kindlegen` 转换工具。
 
-![amazing-amazon](https://private-user-images.githubusercontent.com/77669094/513103789-f477f5aa-185b-4d10-9f55-0e3ff4970122.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjI5MjI1MDQsIm5iZiI6MTc2MjkyMjIwNCwicGF0aCI6Ii83NzY2OTA5NC81MTMxMDM3ODktZjQ3N2Y1YWEtMTg1Yi00ZDEwLTlmNTUtMGUzZmY0OTcwMTIyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTEyVDA0MzY0NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJlNjViOGY4NmNhMGZlYmMwOTQ1OWRlZWM2MTEzODM2Njg4YzQxNmQyM2NkNjZlY2I2NDg5MDc2YjA4YWNkYjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.IpsYo8kmkOIlUPcqLzKOY5EcTCRhUWv-4uxsgCsTfNA)
+![amazing-amazon](https://github.com/user-attachments/assets/bf4a6279-5d74-4231-9c7c-9a158e98bfbe)
 
 > 你说得对，但这就是我们 Amazon Send-to-Kindle 的成功率！
 
