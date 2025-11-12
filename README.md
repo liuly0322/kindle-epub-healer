@@ -29,6 +29,10 @@
 
 你可以在 [#1](https://github.com/liuly0322/kindle-epub-healer/pull/1) 查看一个示例 PR。
 
+> 注意到这几步都可以在 GitHub 网页版上完成。
+
+> 或许也有对应的 API……？
+
 ---
 
 ## 🧠 任务提示词（Task Prompt）
