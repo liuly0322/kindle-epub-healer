@@ -1,0 +1,26 @@
+EPUB Repair Log
+================
+
+Original File: [入间人间]六百六十元的实情.epub
+Fixed File: fixed_[入间人间]六百六十元的实情.epub
+
+Issue Identified:
+-----------------
+Error: "Item or process id already used: cover.xhtml"
+- Duplicate manifest entries detected in content.opf
+
+Fixes Applied:
+--------------
+1. Extracted EPUB to temporary directory
+2. Analyzed content.opf manifest section
+3. Removed duplicate manifest items:
+   - cover.xhtml (line 28, duplicate of line 19)
+   - title.xhtml (line 29, duplicate of line 20)
+4. Repackaged EPUB with corrected content.opf
+5. Verified conversion with kindlegen
+
+Result:
+-------
+✓ Fixed EPUB successfully converted to MOBI format
+✓ All metadata and content structure preserved
+✓ Conversion completed without errors
