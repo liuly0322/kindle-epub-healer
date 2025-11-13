@@ -20,7 +20,7 @@
    将有问题的 `.epub` 文件直接上传到新分支（根目录即可）。
 
 3. **创建 Copilot 任务**  
-   使用下面提供的任务提示词（prompt）创建一个 Task。  
+   使用 [Copilot Agent](https://github.com/copilot/agents) 创建一个 task。注意选中正确的分支，并应用本仓库内置的 kindle-epub-healer agent。
    Copilot 会自动创建一个 **Pull Request**，提交修复建议。
 
 4. **审查并合并 PR**  
@@ -32,25 +32,3 @@
 > 注意到这几步都可以在 GitHub 网页版上完成。
 
 > 或许也有对应的 API……？
-
----
-
-## 🧠 任务提示词（Task Prompt）
-
-> **Prompt:**  
-> 请修复上传的 EPUB 文件，使其能够通过 Amazon Kindle 的 `kindlegen` 转换工具成功转换。  
-> 在执行转换前，请先在仓库根目录解压二进制包：  
->  
-> ``tar -xzf kindlegen_linux_2.6_i386_v2_9.tar.gz``  
->  
-> 然后找到解压后的 kindlegen 可执行文件，再使用以下命令测试转换是否成功：  
->  
-> ``./kindlegen <filename>.epub``  
-> 
-> 如果修复成功，那么会在与 epub 相同目录下生成一个 mobi 文件。 
-> 请确保修复后的 EPUB 保留原书的元数据和内容结构。  
-> 若问题来自无效的 XHTML、缺少 manifest 条目或 spine 顺序错误，请自动修正。  
-> 输出修复后的文件名为 ``fixed_<原文件名>.epub``。
->
-> 除了新的 epub 文件，请创建一个 `fix_log.txt`，记录所有修复步骤，无需记录详细细节。
-> 除此之外，你不需要创建任何其他文件。过程中使用的脚本可以创建在临时目录中，任务完成后删除即可。
