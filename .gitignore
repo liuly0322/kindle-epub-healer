@@ -1,0 +1,5 @@
+# Kindlegen executable
+kindlegen
+
+# MOBI files generated during testing
+*.mobi
