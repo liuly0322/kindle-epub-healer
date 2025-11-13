@@ -1,0 +1,18 @@
+# Extracted kindlegen files
+kindlegen
+docs/
+EULA*.txt
+KindleGen*.txt
+manual.html
+
+# Generated mobi files
+*.mobi
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.tmp
+/tmp/

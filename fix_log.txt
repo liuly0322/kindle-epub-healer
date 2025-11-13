@@ -1,0 +1,29 @@
+EPUB Fix Log
+==================================================
+Input file: /home/runner/work/kindle-epub-healer/kindle-epub-healer/[入间人间]六百六十元的实情.epub
+Output file: /home/runner/work/kindle-epub-healer/kindle-epub-healer/fixed_[入间人间]六百六十元的实情.epub
+
+Step 1: Extracting EPUB file
+  ✓ EPUB extracted successfully
+
+Step 2: Analyzing content.opf
+  Found duplicate: cover.xhtml -> Text/cover.xhtml
+  Found duplicate: title.xhtml -> Text/title.xhtml
+  ✓ Removed 2 duplicate manifest entries
+
+Step 3: Writing fixed content.opf
+  ✓ Fixed content.opf written
+
+Step 4: Repackaging EPUB
+  ✓ EPUB repackaged successfully
+
+Step 5: Cleanup
+  ✓ Temporary files removed
+
+==================================================
+Fix completed successfully!
+
+Summary:
+  - Removed 2 duplicate manifest entries
+  - Original metadata and content preserved
+  - Output: /home/runner/work/kindle-epub-healer/kindle-epub-healer/fixed_[入间人间]六百六十元的实情.epub
