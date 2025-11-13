@@ -1,0 +1,27 @@
+EPUB Fix Log
+============
+
+Original File: [入间人间]六百六十元的实情.epub
+Fixed File: fixed_[入间人间]六百六十元的实情.epub
+Date: 2025-11-13
+
+Issue Identified:
+- Error: E27012 - Item or process id already used: cover.xhtml
+- The content.opf file contained duplicate manifest entries
+
+Duplicate Entries Found:
+1. cover.xhtml (appeared twice in manifest)
+2. title.xhtml (appeared twice in manifest)
+
+Fix Applied:
+- Removed 2 duplicate manifest entries from OEBPS/content.opf
+- Preserved all metadata and content structure
+- Repackaged EPUB with proper ZIP format (mimetype uncompressed, first)
+
+Validation:
+- Fixed EPUB successfully converted to MOBI format using kindlegen
+- Output file: fixed_[入间人间]六百六十元的实情.mobi (1.6MB)
+- No errors reported during conversion
+- All metadata preserved (title, author, publisher, date, etc.)
+
+Result: SUCCESS
