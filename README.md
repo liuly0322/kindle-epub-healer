@@ -27,7 +27,7 @@
    检查 PR 内的修改及日志。  
    若修复后的 EPUB 能被 `kindlegen` 成功转换，即可合并。
 
-你可以在 [#1](https://github.com/liuly0322/kindle-epub-healer/pull/1) 查看一个示例 PR。
+你可以在 [#6](https://github.com/liuly0322/kindle-epub-healer/pull/6) 查看一个示例 PR。
 
 > 注意到这几步都可以在 GitHub 网页版上完成。
 
