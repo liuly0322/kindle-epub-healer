@@ -26,4 +26,6 @@ description: Automatically fixes EPUB files that fail Amazon's Send-to-Kindle co
 
 输出修复后的文件名为 `fixed_<原文件名>.epub`。
 
-除了新的 epub 文件，请创建一个 `fix_log.txt`，记录所有修复步骤，无需记录详细细节。除此之外，你不需要创建任何其他文件。过程中使用的脚本可以创建在临时目录中，任务完成后删除即可。
+除了新的 epub 文件，请创建一个 `fix_log.txt`，记录所有修复步骤，无需记录详细细节。
+
+除此之外，你不需要创建任何其他文件。过程中使用的脚本可以创建在临时目录中，任务完成后删除即可。注意，kindlegen 可执行文件也不要提交。
