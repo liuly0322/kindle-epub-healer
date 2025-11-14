@@ -1,34 +1,36 @@
 # 📘 kindle-epub-healer
 
-自动修复在 Amazon Send-to-Kindle 转换中失败的 EPUB 文件。  
-本仓库利用 **GitHub Copilot Task Agent**，自动分析并修补 EPUB 文件，使其兼容 Kindle 的 `kindlegen` 转换工具。
+[中文版](README_zh.md)
+
+Automatically fix EPUB files that fail in Amazon Send-to-Kindle conversion.  
+This repository uses **GitHub Copilot Task Agent** to automatically analyze and fix EPUB files, making them compatible with Kindle's `kindlegen` conversion tool.
 
 ![amazing-amazon](https://github.com/user-attachments/assets/bf4a6279-5d74-4231-9c7c-9a158e98bfbe)
 
-> 你说得对，但这就是我们 Amazon Send-to-Kindle 的成功率！
+> You're right, but this is our Amazon Send-to-Kindle success rate!
 
-> 手动修复 epub 和 SWE-bench 简直太像了，所以我们直接使用 copilot swe agent 来完成这项工作。
+> Manually fixing epub files is quite similar to SWE-bench, so we directly use copilot swe agent to complete this task.
 
 ---
 
-## 🚀 使用流程
+## 🚀 Usage Workflow
 
-1. **创建新分支**  
-   每次修复一个 EPUB，都应新建一个分支。
+1. **Create a new branch**  
+   Create a new branch for each EPUB file you want to fix.
 
-2. **上传待修复的 EPUB 文件**  
-   将有问题的 `.epub` 文件直接上传到新分支（根目录即可）。
+2. **Upload the EPUB file to be fixed**  
+   Upload the problematic `.epub` file directly to the new branch (in the root directory).
 
-3. **创建 Copilot 任务**  
-   使用 [Copilot Agent](https://github.com/copilot/agents) 创建一个 task。注意选中正确的分支，并应用本仓库内置的 kindle-epub-healer agent。
-   Copilot 会自动创建一个 **Pull Request**，提交修复建议。
+3. **Create a Copilot task**  
+   Use [Copilot Agent](https://github.com/copilot/agents) to create a task. Make sure to select the correct branch and apply the built-in kindle-epub-healer agent from this repository.
+   Copilot will automatically create a **Pull Request** with fix suggestions.
 
-4. **审查并合并 PR**  
-   检查 PR 内的修改及日志。  
-   若修复后的 EPUB 能被 `kindlegen` 成功转换，即可合并。
+4. **Review and merge the PR**  
+   Check the changes and logs in the PR.  
+   If the fixed EPUB can be successfully converted by `kindlegen`, merge it.
 
-你可以在 [#6](https://github.com/liuly0322/kindle-epub-healer/pull/6) 查看一个示例 PR。
+You can check [#6](https://github.com/liuly0322/kindle-epub-healer/pull/6) for an example PR.
 
-> 注意到这几步都可以在 GitHub 网页版上完成。
+> Note that all these steps can be completed on the GitHub web interface.
 
-> 或许也有对应的 API……？
+> Maybe there are corresponding APIs...?
