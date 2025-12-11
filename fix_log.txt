@@ -1,8 +1,8 @@
 EPUB Fix Log
 ==================================================
 
-Input file: /home/runner/work/kindle-epub-healer/kindle-epub-healer/[樱庭一树].我的男人.epub
-Output file: /home/runner/work/kindle-epub-healer/kindle-epub-healer/fixed_[樱庭一树].我的男人.epub
+Input file: [樱庭一树].我的男人.epub
+Output file: fixed_[樱庭一树].我的男人.epub
 
 Fixes applied:
 1. Fixed malformed XML in fb.opf guide section (removed invalid characters from title)
