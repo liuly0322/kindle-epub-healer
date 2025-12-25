@@ -1,0 +1,32 @@
+EPUB Fix Log
+============================================
+Date: 2025-12-25
+
+File 1: 戏言.04.兔吊木垓辅之戏言杀手.epub
+------------------------------------------
+Original Error: E27012 - Item or process id already used: cover.xhtml
+
+Fixes Applied:
+- Removed duplicate manifest item with id='cover.xhtml' and href='Text/cover.xhtml'
+- Removed duplicate manifest item with id='title.xhtml' and href='Text/title.xhtml'
+
+Result: Successfully converted to MOBI format
+Output: fixed_戏言.04.兔吊木垓辅之戏言杀手.epub
+
+File 2: 戏言.05.石丸小呗之装神弄鬼.epub
+------------------------------------------
+Original Error: E27012 - Item or process id already used: cover.xhtml
+
+Fixes Applied:
+- Removed duplicate manifest item with id='cover.xhtml' and href='Text/cover.xhtml'
+- Removed duplicate manifest item with id='title.xhtml' and href='Text/title.xhtml'
+
+Result: Successfully converted to MOBI format
+Output: fixed_戏言.05.石丸小呗之装神弄鬼.epub
+
+Summary
+------------------------------------------
+Both EPUB files contained duplicate entries in their OPF manifest sections.
+The duplicate IDs prevented kindlegen from processing the files correctly.
+After removing the duplicate entries, both EPUBs now convert successfully
+to MOBI format while preserving all original metadata and content structure.
